@@ -7,6 +7,9 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 public class Main {
+	
+	int EXIT_OPTION = 5;
+	
 	public static void main(String[] args) {
 		
 	}

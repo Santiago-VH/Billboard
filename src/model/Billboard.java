@@ -17,6 +17,12 @@ public class Billboard implements Serializable{
 		this.brand=b;
 		this.inUse=iu;
 	}
+	
+	public double calculateArea() {
+		double area;
+		area = width*height;
+		return area;
+	}
 
 
 	public double getWidth() {
@@ -57,7 +63,6 @@ public class Billboard implements Serializable{
 	public void setInUse(boolean iu) {
 		this.inUse = iu;
 	}
-	
 	
 }
 
